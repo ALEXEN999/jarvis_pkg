@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+.cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Entornos
+.venv/
+venv/
+.env
+.env.*
+
+# OS / Editores
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Proyecto Jarvis
+~/
+*.tmp
+*.bak
