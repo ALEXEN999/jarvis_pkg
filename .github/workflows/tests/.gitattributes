@@ -1,0 +1,13 @@
+# Normaliza texto por defecto
+* text=auto
+
+# Scripts de PowerShell con CRLF en Windows
+*.ps1 text eol=crlf
+
+# Código Python: deja que Git normalice (ci/editores formatean)
+*.py text
+
+# Evita normalizar binarios
+*.png binary
+*.jpg binary
+*.exe binary
