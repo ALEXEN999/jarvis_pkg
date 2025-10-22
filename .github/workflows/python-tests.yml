@@ -23,6 +23,14 @@ jobs:
           pip install -r requirements.txt
           pip install pytest pytest-cov
 
-      - name: Run tests
+      - name: Run tests (with coverage XML)
         run: |
-          pytest -v --maxfail=2 --disable-warnings --cov=jarvis --cov-report=term-missing
+          pytest -v --maxfail=2 --disable-warnings --cov=jarvis --cov-report=xml --cov-report=term-missing
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: coverage.xml
+          flags: unittests
+          verbose: true

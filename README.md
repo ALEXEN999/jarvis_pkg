@@ -1,6 +1,6 @@
 # Jarvis — Agente local (Qwen 3B, Ollama)
-![CI Status](https://img.shields.io/github/actions/workflow/status/ALEXEN999/jarvis/python-ci.yml?branch=main&label=CI)
-![Tests](https://img.shields.io/github/actions/workflow/status/ALEXEN999/jarvis/python-tests.yml?branch=main&label=Tests)
+![CI](https://github.com/ALEXEN999/jarvis_pkg/actions/workflows/python-ci.yml/badge.svg?branch=main)
+![Tests](https://github.com/ALEXEN999/jarvis_pkg/actions/workflows/python-tests.yml/badge.svg?branch=main)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)
 
