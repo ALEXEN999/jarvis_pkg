@@ -8,7 +8,7 @@
 Agente local que ejecuta acciones en tu PC (crear/leer/listar archivos y ejecutar comandos) con un modelo pequeño (Qwen 2.5 3B quantizado) para funcionar en GPUs de 8 GB de VRAM.
 
 ## 🧠 Roadmap básico — Proyecto J.A.R.V.I.S. (Core → Asistente)
-- Propósito:** mantener una visión clara del desarrollo de JARVIS: qué hace, qué hará y cómo sabremos que cada etapa está completada.  
+> **Propósito:** mantener una visión clara del desarrollo de JARVIS: qué hace, qué hará y cómo sabremos que cada etapa está completada.  
 > **Ámbito actual:** Windows 10/11, modelo local (`qwen2.5:3b-instruct-q4_0`) con 8 GB VRAM, sin necesidad de Internet.
 
 ---
